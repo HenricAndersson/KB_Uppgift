@@ -8,7 +8,7 @@ import java.util.concurrent.CountDownLatch;
 public class ListsFilter {
 
     /*
-
+        Accepts a folder location and returns strings in text-files in the folder that starts with 'r' without duplicates
      */
     public static Set<String> run(String fileLocation) throws InterruptedException {
 
